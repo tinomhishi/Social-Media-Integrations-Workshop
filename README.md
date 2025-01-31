@@ -1,4 +1,5 @@
-### Social Media API Integration Using Python and C#
+
+# Social Media API Integration Using Python
 
 ## Facebook:
    - The largest social media platform, with over 2.9 billion monthly active users. Hugest market for an audience.
@@ -43,7 +44,7 @@
   - Hashtag Driven Threads
 
 1. Features:
-   - Tweets: 280 character text posts. Can include pictures and video
+   - Tweets: 280-character text posts. Can include pictures and video
    - Hashtags: Grouping content
    - Trending Topics: Regional based topics with high level of engagement
    - Twitter Adds: Promote Tweets and accounts
@@ -72,4 +73,41 @@
      ```
   4. Case Study
      - Vacancy Mail. Posting vacancies periodically on official twitter account.
-  
+
+## Tik Tok
+- Short-form video platform with over 1 billion monthly active users.
+- Largely Gen Z and under 30
+- Algorithm that promotes engagement and maximizes attention grabbing.
+- Viral content and creation tools
+
+1. Features
+ - Videos
+ - Tik Tok Ads
+ - Creator market place to engage with other creators.
+ - Live streaming
+2. Business Opportunities
+ - Content Creation and Management
+ - Post Creation Metrics
+ - Ad Campaign Management
+3. SDK
+   - Installation
+     `pip install TikTokApi`
+   - Posting Video
+     ```
+     from TikTokApi import TikTokApi
+
+      # Authenticate
+      api = TikTokApi()
+      
+      # Post a video
+      api.upload_video("path/to/video.mp4", description="Hello, TikTok!")
+     ```
+   - Getting Video Metrics
+     ```
+     # Retrieve video metrics
+      metrics = api.get_video_metrics("VIDEO_ID")
+      print(metrics)
+     ```
+4. Case Study
+   - George wants to share how to share recipes for his food truck. Adhering to the carnivore diet principles. Witty funnys post informative and engaging.
+     
