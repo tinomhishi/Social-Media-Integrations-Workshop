@@ -110,4 +110,77 @@
      ```
 4. Case Study
    - George wants to share how to share recipes for his food truck. Adhering to the carnivore diet principles. Witty funnys post informative and engaging.
-     
+
+## Instagram
+   - Photo and video sharing platform
+   - Demographic: Millenial to Gen Z.
+   - 1 Billion active users
+
+1. Features
+   - Instagram Stores: Temporary Posts (Disappear After 24h) 'Snap Chat Feature clone'.
+   - IGTV: Long form video
+   - Reels: Short For Video (Tik Tok Clone)
+   - Insta Shopping: Tag products in Posts For Direct Purchases.
+2. Business Opportunities
+   - Content Management tools.
+   - Retrieving Engagment Metrics.
+   - Manage Insta Shopping Tags.
+3. SDK:
+   - Installation
+     ```
+     pip install instagram-api
+     ```
+   - Posting Media
+     ```
+     from instagram_api import InstagramAPI
+
+      # Authenticate
+      api = InstagramAPI("USERNAME", "PASSWORD")
+      
+      # Post a photo
+      api.post_photo("path/to/photo.jpg", caption="Hello, Instagram!")
+     ```
+   - Get insights
+     ```
+     # Retrieve media insights
+      insights = api.media_insights("MEDIA_ID")
+      print(insights)
+     ```
+4. Case Study
+   - Fashion Brand wants to showcase collections and generate sales. Stone Island.
+   - Local Example Kembo
+
+## LinkedIn
+- Professional Social Networking.
+- Nearly 800m active users.
+- Marketing, Professional Development, Recruitment
+
+1. Features
+   - Posting Articles.
+   - Company Page Analytics
+   - Managing Job Postings
+2. SDK:
+   - Installation
+     ```
+     pip install linkedin-api
+     ```
+ - Posting:
+   ```
+   from linkedin_api import Linkedin
+
+   # Authenticate
+   api = Linkedin("EMAIL", "PASSWORD")
+   
+   # Post an update
+   api.post_update("Hello, LinkedIn!")
+   ```
+- Get analytics
+  ```
+  # Retrieve company page analytics
+   analytics = api.get_company_analytics("COMPANY_ID")
+   print(analytics)
+  ```
+- Case Study
+   
+   
+        
