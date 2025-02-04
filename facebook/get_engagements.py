@@ -32,5 +32,5 @@ def get_post_engagements(post_id):
     print(data)
 
 
-# get_post_engagements('587706781084458_122098223222762351')
-# get_page_engagements()
+# get_post_engagements('587706781084458_122098786346762351')
+get_page_engagements()

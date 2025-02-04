@@ -1,5 +1,3 @@
-  
-
 # Social Media API Integrations
 
 Social Media integrations facilitate the streamlining of operations that do with communications and engagement with customers and potential customers by.
@@ -27,6 +25,7 @@ https://www.tweepy.org/
 - Black box due to abstraction.
 - Limits development to what the SDK supports and prioritizes.
 - Updates can break code.
+- Some SDK are officially maintained by Platform Providers like facebook. For example https://github.com/facebook/facebook-python-business-sdk for the facebook business api
 
 ### Direct Calling
 - It can be more complex to handle things manually.
@@ -383,3 +382,19 @@ A restaurant wants to automate booking confirmations and daily specials via What
   
 
 - Provide a detailed explanation and video demo of how the app uses requested permissions.
+
+## Further Reading
+https://developers.facebook.com/docs/
+https://developers.facebook.com/docs/graph-api/reference/whats-app-business-account/
+https://developer.x.com/en/docs/x-api
+https://developers.facebook.com/docs/development/create-an-app/
+https://developers.facebook.com/tools/
+https://developers.facebook.com/docs/graph-api/webhooks/
+https://developers.facebook.com/docs/whatsapp/cloud-api/
+https://www.analyticsvidhya.com/blog/2021/10/sentiment-analysis-with-textblob-and-vader/
+https://learn.microsoft.com/en-us/linkedin/
+https://www.tweepy.org/
+https://developers.facebook.com/docs/business-sdk/
+
+## Code Examples
+https://github.com/tinomhishi/Social-Media-Integrations-Workshop

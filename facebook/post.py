@@ -29,7 +29,7 @@ def post_to_facebook(message, image_url=None):
 
 # post_to_facebook("I think you're confusing peace with quiet.")
 post_to_facebook(
-    "I was meant to be beautiful. The world would have looked to the sky and seen hope...seen mercy.",
-    image_url='img/img_1.jpg'
+    "Test Post",
+    image_url='img/img_3.jpg'
     
 )

@@ -18,5 +18,5 @@ def respond_to_comment(comment_id, msg):
     print(r.json())
     
 
-respond_to_comment('122098223222762351_604706585765283', 'We will be seeing you really soon.')
+respond_to_comment('122098786346762351_871077045026792', 'Received')
     
